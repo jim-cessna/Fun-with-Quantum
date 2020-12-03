@@ -1,4 +1,14 @@
-## Welcome to GitHub Pages
+## Fun with Quantum
+
+"Fun with Quantum" is a colletion of Jupyter notebooks that highlight specific aspects of Quantum Computing that are interesting and/or fun.
+
+ 1. Quantum Coin Game Binder
+ 2. Simple Quantum Implementation for Boolean satisfiability problems Binder
+ 3. Even Simpler Quantum Implementation for Boolean satisfiability problems (under development) Binder
+ 4. GHZ Game Binder
+ 5. GHZ Game on real devices Binder
+ 6. Hardy's Paradox (under development) Binder
+
 
 You can use the [editor on GitHub](https://github.com/jim-cessna/Fun-with-Quantum/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
