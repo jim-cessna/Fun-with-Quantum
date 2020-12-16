@@ -358,7 +358,7 @@ img.img-full-width {
 	/* font family from google fonts and img search */
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
-	background-image: url(".../Rasqberry.png");
+	background-image: url("../Rasqberry.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
