@@ -58,7 +58,7 @@ hr {
 a {
 	text-decoration: none;
 	outline: none;
-	color: #2ec06c;
+	color: #0057f0;
 	-webkit-transition: all .4s ease-in-out;
 	   -moz-transition: all .4s ease-in-out;
 		 -o-transition: all .4s ease-in-out;
@@ -219,7 +219,7 @@ img.img-full-width {
 	text-align: center;
 }
 .hover .item {
-	background: #96e2d4;
+	background: #0057f0;
 	display: inline-block;
 }
 
@@ -248,10 +248,10 @@ img.img-full-width {
 		 -o-transition: all .3s ease-in-out;
 		-ms-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;
-	background: rgba(243,129,129); /*the "normal" background if no gradient is possible*/
-	background: -webkit-linear-gradient(top, rgba(243,129,129), rgba(252, 227, 138));
-	background: -o-linear-gradient(top, rgba(243,129,129), rgba(252, 227, 138));
-	background: linear-gradient(to bottom, rgba(243,129,129), rgba(252, 227, 138)); /* for newer browser */
+	background: rgba(0,87,240); /*the "normal" background if no gradient is possible*/
+	background: -webkit-linear-gradient(top, rgba(0,87,240), rgba(252, 227, 138));
+	background: -o-linear-gradient(top, rgb(0, 87, 240), rgba(252, 227, 138));
+	background: linear-gradient(to bottom, rgba(0,87,240), rgba(252, 227, 138)); /* for newer browser */
 }
 
 
@@ -286,10 +286,10 @@ img.img-full-width {
 		 -o-transition: all .3s ease-in-out;
 		-ms-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;
-	background: rgba(243,129,129, 0.7); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(top, rgba(243,129,129, 0.7), rgba(252, 227, 138, 0.7));
-	background: -o-linear-gradient(top, rgba(243,129,129, 0.7), rgba(252, 227, 138, 0.7));
-	background: linear-gradient(to bottom, rgba(243,129,129, 0.7), rgba(252, 227, 138, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: rgba(0,87,240, 0.7); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(top, rgba(0,87,240, 0.7), rgba(252, 227, 138, 0.7));
+	background: -o-linear-gradient(top, rgba(0,87,240, 0.7), rgba(252, 227, 138, 0.7));
+	background: linear-gradient(to bottom, rgba(0,87,240, 0.7), rgba(252, 227, 138, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -358,6 +358,9 @@ img.img-full-width {
 	/* font family from google fonts and img search */
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
+	background-image: url("/Users/jan-niklasschmidt/Documents/Fun\ with\ Quantum\ Github\ Pages/Images/Rasqberry.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #header:after {
 	top: 0;
@@ -366,10 +369,10 @@ img.img-full-width {
 	height: 100%;
 	left: 0;
 	width: 100%;
-	background: rgba(243,129,129,0.9); 
-	background: -webkit-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
-	background: -o-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
-	background: linear-gradient(to bottom, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9)); 
+	background: rgba(0,87,240,0.5); 
+	background: -webkit-linear-gradient(top, rgba(0,87,240,0.5), rgba(252, 227, 138, 0.5));
+	background: -o-linear-gradient(top, rgba(0,87,240,0.5), rgba(252, 227, 138, 0.5));
+	background: linear-gradient(to bottom, rgba(0,87,240,0.5), rgba(252, 227, 138, 0.5)); 
 }
 #headerInner {
 	/* the z-index is for the postion and order  */
@@ -496,7 +499,7 @@ section {
 /* =============== SECTION: NUMBERS (numbers) =============== */
 #numbers {
 	padding: 0;
-	background: #96e2d4;
+	background: #0057f0;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	color: #fff;
@@ -523,7 +526,7 @@ section {
 #service .icon {
 	font-size: 30px;
 	margin-right: 20px;
-	color: #96e2d4;
+	color: #0057f0;
 }
 #service .item:not(:nth-last-child(-n+3)) {
 	border-bottom: 1px solid #e5e5e5;
@@ -596,7 +599,7 @@ label {
 
     border-top-width: 0px;
     border-radius: 0px;
-	font-style: italic;
+	/* font-style: italic; */
 	
 	margin-bottom: 20px;
 	margin-top: -30px;
@@ -634,7 +637,7 @@ label {
 	left: -40px;
 	top: -35px;
 	font-size: 30px;
-	color: #96e2d4;
+	color: #0057f0;
   }
 
 
@@ -813,9 +816,9 @@ label {
 
   .quotes .symbol .icon {
 	padding: 16px;
-	border: 2px solid #96e2d4;
+	border: 2px solid #0057f0;
 	font-size: 65px;
-    color: #96e2d4;
+    color: #0057f0;
     margin-left: 120px;
 }
 
@@ -859,7 +862,9 @@ label {
     -ms-flex: 25%; 
     flex: 25%;
     max-width: 25%;
-    padding: 0 0px;
+	/* padding: 0 0px; */
+	/* padding-left: 17%; */
+	margin-left: 10%;
   }
   
   .column img {
@@ -990,7 +995,7 @@ footer .followUs .socialmedia .icon {
 	display: inline-block;
 	margin: 0 3px;
 	font-size: 20px;
-	color: #96e2d4;
+	color: #0057f0;
 }
 
 
@@ -1018,7 +1023,7 @@ footer .subscribeForm .input-group .button {
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
-	background: #96e2d4;
+	background: #0057f0;
 	border: none;
 }
 
