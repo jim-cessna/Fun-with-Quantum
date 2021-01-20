@@ -1,0 +1,20 @@
+div.run_this_cell {
+    display: none;
+    cursor: pointer;
+    color: #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2ex;
+    padding-right: 2ex;
+    width: 1ex;
+}
+
+div.code_cell div.input_prompt {
+    min-width: 15ex;
+}
+
+@media (-moz-touch-enabled: 1), (any-pointer: coarse) {
+    div.run_this_cell {
+        display: block;
+    }
+}
