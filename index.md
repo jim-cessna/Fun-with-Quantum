@@ -52,7 +52,7 @@ A first discription how to install Qiskit on a Raspberry Pi is available at http
 
 An enclosure (3D model) of the IBM Q System One can be used for RasQberry. STL files are available at https://github.com/JanLahmann/RasQberry_enclosure (original source: https://github.com/BAndiT1983/RasQberry_enclosure). This is based on an idea of Andy Stanford-Clark (https://github.com/andysc/IBM-Q-System-One-3D-model). Additional instructions for assembling the enclosure and all components (Raspberry Pi, 4'' touchscreen display, battery pack inside the enclosure, etc) will be provided later. 
 
-<iframe src="https://www.youtube.com/embed/QkLW0Yw_pmg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/QkLW0Yw_pmg" width="560" height="315" frameborder="0"></iframe>
 
 
 <img src="RasQberry-3D-Model.png" alt="hi" class="inline"/>
