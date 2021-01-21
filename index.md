@@ -24,11 +24,11 @@ A first discription how to install Qiskit on a Raspberry Pi is available at (htt
     It will download and start a configuration tool "rasqberry-config", similar to the well known "raspi-config", that can be used to to some basic configuration,
     install Qiskit and several quantum demos.
 
-     `pip3 install getgist
-     ```markdown
-     `.local/bin/getgist -y JanLahmann RasQ-init.sh
-     ```markdown
-     `. ./RasQ-init.sh
+     `pip3 install getgist`
+     
+     `.local/bin/getgist -y JanLahmann RasQ-init.sh`
+     
+     `. ./RasQ-init.sh`
 
      Also use the `. ./RasQ-init.sh` command to start the rasqberry-config tool again or `sudo rasqberry-config`.
      
