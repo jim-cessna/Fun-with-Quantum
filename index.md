@@ -57,5 +57,5 @@ An enclosure (3D model) of the IBM Q System One can be used for RasQberry. STL f
 <iframe src="https://www.youtube.com/embed/QkLW0Yw_pmg" width="560" height="315" frameborder="0"></iframe>
 
 
-<img src="RasQberry-3D-Model.png" alt="hi" class="inline" style="with: 50%; hight: 50%;"/>
+<img src="RasQberry-3D-Model.png" alt="hi" class="inline" style="height:400px; width:400px"/>
 
