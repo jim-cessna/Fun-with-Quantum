@@ -29,6 +29,8 @@ A first discription how to install Qiskit on a Raspberry Pi is available at http
      `. ./RasQ-init.sh
 
      Also use the `. ./RasQ-init.sh` command to start the rasqberry-config tool again or `sudo rasqberry-config`.
+     
+     <img src="rasqconfig-1.png" alt="hi" class="inline"/>
 
  2. "rasqberry-config" offers a simple menu structure. To setup RasQberry, go through the menu items in "S RasQberry Setup" one by one.
      Some of them require a reboot.
@@ -39,6 +41,8 @@ A first discription how to install Qiskit on a Raspberry Pi is available at http
 
      Raspberry-Tie (https://github.com/KPRoche/quantum-raspberry-tie by Kevin Roche) and Qrasp (https://github.com/ordmoj/qrasp by Hassi Norlen).
 
+     <img src="rasqconfig-2.png" alt="hi" class="inline"/>
+
  3. The above installation procedure used pre-compiled wheel files for most of the python packages. 
     These are downloaded automatically from  https://www.piwheels.org. For the packages retworkx and qiskit-aer, currently there are no whl files available. 
     Total install with local compile takes 25 minutes on RPi 4, on a Pi Zero about 4.5 hours.
@@ -48,8 +52,10 @@ A first discription how to install Qiskit on a Raspberry Pi is available at http
 
 An enclosure (3D model) of the IBM Q System One can be used for RasQberry. STL files are available at https://github.com/JanLahmann/RasQberry_enclosure (original source: https://github.com/BAndiT1983/RasQberry_enclosure). This is based on an idea of Andy Stanford-Clark (https://github.com/andysc/IBM-Q-System-One-3D-model). Additional instructions for assembling the enclosure and all components (Raspberry Pi, 4'' touchscreen display, battery pack inside the enclosure, etc) will be provided later. 
 
+<iframe src="https://www.youtube.com/embed/QkLW0Yw_pmg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
 
-<img src="RasQberry.png" alt="hi" class="inline"/>
+
+<img src="RasQberry-3D-Model.png" alt="hi" class="inline"/>
 
 You can use the [editor on GitHub](https://github.com/jim-cessna/Fun-with-Quantum/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
